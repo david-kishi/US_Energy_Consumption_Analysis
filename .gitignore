@@ -8,3 +8,7 @@ config.py
 # IPython
 profile_default/
 ipython_config.py
+
+# Ignore caches
+__pycache__
+*/__pycache__/*
