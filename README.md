@@ -1,6 +1,6 @@
 # U.S. Energy Consumption Analysis
 
-An analysis on data of traffic and energy consumption in the US.
+An analysis on data of total energy consumption and CO2 emissions in the US.
 
 ## Data Sources
 |Name|Type|Description|Website|
