@@ -102,17 +102,24 @@ All of the data we were able to retrieve from US EIA's API. https://www.eia.gov/
 ## Analysis
 ### Total Energy Consumption by State Ranking
 The first thing we wanted to see was which state had the most total energy consumption.
+
 ![TETCB by State Rank](Images/TETCB_State_Rankings.png)
+
 It's a little hard to see, but that first line at the top is Texas and the second line is California. Let's do a horizontal bar graph and table to narrow it down to the top 5 states with the most recent year in data, 2017.
+
 ![TETCB Top 5](Images/TETCB_Top_5.png)
+
 We also want to see what the total consumption percentage is too through a table.
+
 ![TETCB Top 5 Pct Table](Images/TETCB_Top_5_Table.png)
+
 In 2017, Texas ranked #1 in total energy consumption at a whopping 13,365,864 btu ([british thermal units](https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php)), accounting for 13.687% of the entirety of US's total energy consumption. California trails not far behind, ranking at #2 in total energy consumption at 7,881,348 btu, accounting for 8.071% of US's total energy consumption.
 
 ### Total Energy Consumption, by Energy Type, by California & US
 Now let's break down the energy types into Petroleum, Coal and Natural Gas to see the trends in California.
 
 ![TETCB CA Line Plot](Images/TETCB_CA_Line_Plot.png)
+
 We can observe in Figure 1 and 2 that in California, Coal is not a widely used source of energy at all. Petroleum is #1 and Natural Gas is #2. Comparing the trends of California and United States, we can see the trends are very similar. California seems to consume about ~10% of what the US does at a time.
 
 Now looking at Figures 3 to 6, we can also deduct that California consumes way over the US average.
@@ -164,5 +171,7 @@ For reference, here are the hypotheses once again.
 **H<sub>a</sub>:** As Total Fossil Fuel Energy Consumption increases, CO2 Emissions does increase with it.
 
 Based on our analysis, we can reject the null hypothesis `As Total Fossil Fuel Energy Consumption increases, CO2 Emissions does NOT increase with it`. This hypothesis was disproven with our correlation scatter plot of Total Fossil Fuel Energy Consumption vs. CO2 Emissions.
+
 ![TETCB vs. CO2 Correlation](Images/TETCBvsCO2_State_Combined_Correlation.png)
+
 With such a strong positive correlation seen above (correlation coefficient of 0.976, p-value of 0.0), we can conclude that there is a correlation between fossil fuel energy consumption and CO2 emissions. `As Total Fossil Fuel Energy Consumption increases, CO2 Emissions increases with it.`
