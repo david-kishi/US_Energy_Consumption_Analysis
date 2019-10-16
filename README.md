@@ -1,7 +1,11 @@
 # Total Fossil Fuel Energy Consumption and Carbon Dioxide (CO2) Emissions Final Analysis Report
 
+<<<<<<< HEAD
 ### Description
 A basic analysis on Total Fossil Fuel Energy Consumption and CO2 Emissions based on data from [EIA](https://www.eia.gov/opendata/) (U.S. **E**nergy **I**nformation **A**dministration).
+=======
+An analysis on data of total energy consumption and CO2 emissions in the US.
+>>>>>>> 2b150d8bae7608d238f015d9e9beeca3e38f9a3a
 
 ### Info / Credits
 
